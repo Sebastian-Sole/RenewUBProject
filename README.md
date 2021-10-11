@@ -1,22 +1,38 @@
-# RenewUB
-Prototype website built with Flask and PostgreSQL for RenewUB
+# RenewUB Project
+Prototype website built with Flask and PostgreSQL for RenewUB\
+This project was created by Sebastian Sole and Julian Grande
 
 
-## Setup 🔨
-1. After pulling the repository, create a new ```.env``` file if you do not already have it and add the following: 
-```
+## About RenewUB
+RenewUB says:\
+*Our vision is to cut down on clothing consumption by residents across Norway. We want to reduce climate emissions and make it more environmentally friendly to acquire new clothes. We want to implement this by creating an easily accessible website where user's can exchange clothing items. Our goal is that in a few years we will have managed to create a platform where you can exchange clothes.*
 
-SECRET_KEY=SOME RANDOM GENERATED HASH
+## Features
+### RenewUB says:
+*Our website should consist of these features:*
 
-```
-**Alternatively if that does not work run the following in console:**
-```
+#### *User login, which should include the ability to:*
 
-export SECRET_KEY=SOME RANDOM GENERATED HASH
+*• Create a user\
+• Change password\
+• Set a biography\
+• Upload profile picture*
 
-```
-2. Run the command ``` pip/pip3 install -r requirements.txt ```
-2. Create a folder named ```.tmp``` and another file inside called ``` database.db ``` (for SQLite in development)
-3. Run the function ``` init_db() ``` **ONCE** in the function ``` index() ``` to build the schemas
-4. Go into any SQLite manager (or inside python if you know how) and create a user with a bcrypt-hashed password
-5. Done!
+#### *Post functionality, which should include the ability to*:
+
+*• Upload pictures from computer\
+• Create a post with the picture\
+• Add a caption to the photo\
+• "Post" the photo to the user's profile*
+
+#### *About posts:*
+
+*• Able to add to "Favorites"\
+• Ability to join a chat with the post's owner*
+
+#### *Chat-functionality:*
+
+*• Real-time chat*
+
+
+
