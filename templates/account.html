@@ -1,0 +1,7 @@
+{% extends 'layout.html' %} {% block content %} {% if session['user'] %}
+
+<h1>{{ session['current_username'][0] }} sin konto</h1>
+
+<a href="/dashboard">Dashboard</a>
+
+{% endif %} {% endblock %}
